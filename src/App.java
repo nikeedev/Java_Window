@@ -4,7 +4,7 @@ import java.awt.*;
 
 public class App {
     public static void main(String[] args) {
-        ImageIcon logo = new ImageIcon("pic.png");
+        ImageIcon logo = new ImageIcon(App.class.getResource("pic.png"));
         JLabel label = new JLabel();
         label.setText("Hello and welcome to frame app");
         label.setHorizontalAlignment(SwingConstants.CENTER);
