@@ -1,6 +1,7 @@
-
-public class Main {
+public class Main
+{
     public static void main(String[] args) {
+
         int Window_width = 1100;
         int Window_height = 650;
 
